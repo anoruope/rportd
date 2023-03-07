@@ -1,4 +1,4 @@
-FROM alpine:3.15 as downloader
+FROM alpine:3.15
 
 ARG RPORT_VERSION=0.6.0
 ARG FRONTEND_BUILD=0.6.0-build-966
